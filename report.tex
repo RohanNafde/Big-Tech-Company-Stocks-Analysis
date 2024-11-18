@@ -1,0 +1,171 @@
+\documentclass[11pt, twocolumn]{article}
+\usepackage{graphicx}
+\usepackage{enumitem,kantlipsum}
+% \usepackage[LGRgreek]{mathastext}
+\usepackage[document]{ragged2e}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{floatrow}
+\usepackage{caption}
+\titlespacing{\title}{0pt}{\parskip}{-\parskip}
+\usepackage{sectsty}
+\sectionfont{\Large}
+\newgeometry{left=15mm, right=15mm , top=20mm , bottom =20mm}
+
+\setlength{\parindent}{0em}
+\title{
+Impact of World Events on Tech Stocks \\
+DS203 Course Project
+}
+\author{Rohan Nafde 210070068\\
+Sajal Deolikar 210070071\\
+Varad Deshpande 21d070024}
+\date{}
+\begin{document}
+
+\maketitle
+
+\begin{justify}
+
+\section*{\large Introduction}\label{sec:intro}
+
+\vspace{-5pt}
+
+Stocks signify ownership of a part of a corporation, its assets and its earnings.
+Naturally, their value reflects how valuable the corporation is perceived to be by the investors.
+Major world events impact stocks as they change people's thoughts and expectations, thus changing 
+the perceived value.
+\vspace{1em}
+
+In this project, we take a deeper dive into the impact of world events on the valuation of the stocks
+of major tech companies. After exploratory data analysis and identifying trends, we attempt to fit a 
+model to predict the future impacts of such occurrences.
+
+% put market capital chart here
+
+\section{\large Exploratory Data Analysis}\label{sec:eda}
+
+\vspace{-5pt}
+
+\subsection{Data Acquisition}
+Write about where and how we acquired data, insert references.
+\vspace{-5pt}
+\subsection{Cleaning the Data} 
+Write how we cleaned and what all we checked for.
+\vspace{-5pt}
+\subsection{Preliminary Observations}
+Data seems to be clean.
+almost all stocks drop during covid and 2008 recession.
+
+
+
+\section{\large World Events and their Impact}
+\vspace{-5pt}
+
+write about them event wise, discuss the contrasting impact on different types of companies eg. hardware, software
+include major companies and then interesting ones on a case to case basis.
+
+\subsection{iPhone launch (June 2007)}
+The original iPhone release heralded a new era of tech and defined what smartphones are today. Despite the 
+doubts surrounding, it at the time it is still Apple's most successful product line.
+
+\vspace{1em}
+It was the first fully touchscreen pocket-sized mobile device that had multiple features. Compared to its
+competitors, it was far ahead of its time.
+
+\vspace{1em}
+\textit{
+How did it affect apple, its competitors. Did some software companies benefit?
+Did any hardware or software companies benefit? Did stocks fall as investors were panicking?}
+\vspace{-5pt}
+
+\subsection{Great Recession (2008)}
+The combination of widspread failures in financial regulation, excessive risk and lack of understanding of the financial system led to the housing bubble burst from 2007-2009.
+The International Monetary Fund concluded that it was the most severe economic meltdown since the Great Depression.
+\vspace{1em}
+
+
+By plotting the market value taking 100 prominent tech companies into account, we can see that the market dropped by over
+40\% during the recession.
+
+\vspace{-5pt}
+
+\subsection{U.S.-China Trade War (2018-present)}
+In January 2018, the Trump administration began setting tariffs and other trade barriers on China to force it to make changes to longstanding unfair trade practices and intellectual property theft, according to the U.S. \vspace{1em}
+
+
+In response to US trade measures, the Chinese government accused the Trump administration of engaging in nationalist protectionism and took retaliatory action. A series of tariffs, import restrictions, agreements and name-calling followed. By the end of the Trump presidency, the trade war was characterized as a failure. His successor, Joe Biden, has kept tariffs in place.
+\vspace{-5pt}
+
+
+
+\subsection{Facebook IPO (May 2012)}
+The Facebook IPO was one of the largest in technology and internet history. 
+It was marred by a glitch in the 
+NASDAQ trading system leaving traders unhappy. 
+
+\vspace{1em}
+Many analysts believed that Facebook had been overvalued by the investors during the IPO.
+A year later, the stock price was down by more than 10\% from the IPO value.
+
+\textit{what happened to fb, were any other companies affected?}
+\vspace{-5pt}
+
+
+\subsection{Facebook buys Whatsapp (February 2014)}
+\vspace{-5pt}
+
+
+\subsection{Russia-Ukraine War (2014-present)}
+Following Ukraine's Revolution of Dignity, Russia annexed Crimea from Ukraine in 2014 and supported pro-Russian separatists in Donbas against Ukrainian government forces.
+Fighting for the first eight years of the conflict included naval incidents, cyberwarfare, and heightened political tensions.
+\vspace{1em}
+
+
+In February 2022, the conflict saw a major escalation as Russia launched a full-scale invasion of Ukraine. The ongoing full-scale war has resulted in a major refugee crisis and tens of thousands of deaths. It caused the price of energy, commodities and metals, which Russia is one of the largest producers and exporters of.
+
+\vspace{-5pt}
+
+
+
+\section{\large Interesting Stock Trends}
+\vspace{-5pt}
+
+
+
+\subsection{AMD's fall and rebirth}
+AMD is one of the oldest designers of large scale microprocessors and its story is filled with successes, errors and a close shave with ruin. In the early days, what Intel designed, AMD simply tried to make better. The poor decisions, lawsuits and inability to design a competitive product nearly drove AMD to bankruptcy in 2014.
+\vspace{1em}
+
+
+However, the change of leadership and strategy lead to the development of the Zen architecture in 2017, which proved to be a game-changer for AMD. Finally, AMD's chips were competitive causing a large increse in profits. Today, AMD competes with both Intel and NVIDIA and their chips are used in Tesla cars, gaming consoles, laptops, PCs etc.
+\vspace{-5pt}
+
+\subsection{DELL vs. HP}
+\vspace{-5pt}
+
+\subsection{Rise of Zoom}
+Before the Covid pandemic, Zoom was a video conferencing tool like any other, mainly used by employees for conferences and communication. However, once lockdowns were enforced, there was a surge in the use of video conferencing platforms and Zoom was able to rise above the rest.
+\vspace{1em}
+
+
+Zoom was successful because of its plethora of free features, easy accessibility and capabilities to host meetings with a large number of attendees. In 2020, Zoom's revenue increased by over 169\%
+and it peaked at over 300 million daily meeting participants (30 fold of 2019). Despite the crashing market, Zoom was did extremely well during the pandemic. As expected, Zoom's stock price has started droppiing after lockdowns were removed around the world.
+\vspace{-5pt}
+
+\subsection{Telsa smashes Covid}
+\vspace{-5pt}
+
+\subsection{Musk buys Twitter and Privatization}
+gigachad
+\vspace{-5pt}
+
+
+\section{\large Modelling stock price fluctuations}
+\vspace{-5pt}
+Write about which model we're trying to fit and why. How did we do it? What are our conclusions?
+
+
+\end{justify}
+\end{document}
